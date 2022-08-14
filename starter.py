@@ -99,7 +99,7 @@ def a_star():
     pass # delete when implemented
 
 
-def heauristic():
+def grid_heauristic():
     # what heuristic do you think would be best for this problem?
     # e.g. manhattan distance or euclidean distance?
     pass # delete when implemented
@@ -257,3 +257,10 @@ def bfs(initial, goal):
         i += 1
 
     return None
+
+
+def puzzle_heauristic():
+    # what heuristic do you think would be best for this problem?
+    # e.g. hamming distance or manhattan distance?
+    # how can you keep it admissible?
+    pass # delete when implemented
